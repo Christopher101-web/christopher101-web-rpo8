@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="javascript/api.js"></script>
+    </head>
+    <body>
+        <div id="menu-bar">
+            <a href="index.html">ABOUT</a>
+            <a href="index.html">HOME</a>
+            <a href="pictures.html">PICTURES</a>
+        </div>
+        <div id="contact-details">
+            <h1>Please fill in the form below?</h1>
+        </div>
+        <form>
+            <fieldset>
+                <legend>Personel information:</legend>
+                First name:<br>
+                <input type="text" name="firstname">
+                <br>
+                Last name:<br>
+                <input type="text" name="lastname">
+                <br><br>
+                Gender:<br>
+                <input type="radio" name="gender" value="Male">Male
+                <br>
+                <input type="radio" name="gender" value="Female">Female
+                <br><br>
+                Select your type of feedback?<br>
+                <select name="feedback">
+                    <option value="select-one">Select One</option>
+                    <option value="compliment">Compliment</option>   
+                    <option value="query">Query</option>   
+                    <option value="suggestion">Suggestion</option>   
+                    <option value="question">Question</option>   
+                    <option value="complaint">Complaint</option>   
+                    <option value="other">Other</option>   
+                </select>
+                <br><br>
+                <div id="contact-details-textarea">
+                    <textarea placeholder="Type your message here please?"></textarea>
+                </div>
+                <br>
+                <div id="contact-details-button">
+                    <a href="message-recieved.html" id="button">SUBMIT</a>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>    
+      
